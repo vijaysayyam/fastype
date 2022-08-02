@@ -1,0 +1,63 @@
+html {
+  background-color: white;
+  color: white;
+  font-family: sans-serif;
+  padding: 10em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.correct {
+  font-weight: bold;
+  color: rgb(64, 136, 64);
+}
+span {
+  font-weight: bold;
+  color: grey;
+  font-size: 1.5em;
+  opacity: 0.75;
+  line-height: 35px;
+}
+.incorrect {
+  font-weight: bold;
+  color: rgb(146, 66, 66);
+}
+.green {
+  font-size: 1rem;
+  line-height: normal;
+  color: rgb(64, 136, 64);
+}
+.red {
+  font-size: 1rem;
+  line-height: normal;
+  color: rgb(146, 66, 66);
+}
+.active {
+  font-weight: bold;
+  opacity: 1;
+}
+
+.input {
+  width: 100%;
+  color: grey;
+  font-weight: bold;
+  font-size: larger;
+  margin-top: 20px;
+  padding: 10px;
+  border: 1 px solid grey;
+}
+.stats {
+  display: flex;
+}
+.stats p {
+  margin-right: 25px;
+  font-weight: bold;
+}
+.header {
+  color: grey;
+}
+
+.navBar {
+  display: flex;
+}
